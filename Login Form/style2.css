@@ -2,7 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: 50px;
-    background-color: cornflowerblue;
+    background-color: darkorange;
 }
 
 h1{
@@ -11,20 +11,20 @@ h1{
 }
 
 body{
-    background: linear-gradient( #243b55);
+    background: linear-gradient( #296cb9);
 }
 
 div{
     display: flex;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 550px;
     padding: 25px 25px;
     margin: auto;
     margin-top: 50px;
     border-style: none;
     border-width: 10px;
     border-radius: 10px;
-    color: #ffffff;
+    color: #000000;
     position: relative;
     float: none;
     box-shadow: 15px 15px 30px 3px #2d3a4c;
@@ -36,7 +36,7 @@ div{
 }
 
 input{
-    background-color: #c0c0c0;
+    background-color: #ffffff;
     border-style: solid;
     border-radius: 10px;
     height: 30px;
@@ -51,7 +51,6 @@ input:invalid:focus{
 }
 
 button{
-    width: 70px;
     height: 30px;
     background-color: #ffffff;
     color: #000;
@@ -66,5 +65,5 @@ a:link{
 }
 
 a:hover{
-    color: #e25151;
+    color: #515fe2;
 }

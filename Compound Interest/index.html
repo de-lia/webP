@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="table" id="input" action="">
+        <div class="row">
+            <label for="">Initial Deposit:</label>
+            <input type="number" id="depos" min="1" max="9999" step="1" required><br><br>
+        </div>
+        <div class="row">
+            <label for="">Annual interest rate:</label>
+            <input type="number" id="annual" min="0" max="100" step="1" required>%<br><br>
+        </div>
+        <div class="row">
+        <label for="">Years to grow:</label>
+        <input type="number" id="years" min="1" max="20" step="1" required>
+        </div>
+
+        <br><br>
+        <button type="submit" onclick="generateTable(this.form);">Generate compound interest</button>
+    </form>
+    <br><br>
+    <div id="result"></div>
+</body>
+
+<script src="main.js"></script>
+</html>

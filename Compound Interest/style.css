@@ -1,0 +1,28 @@
+form{
+    display: block;
+    width: 400px;
+    height: 300px;
+    padding: 25px 25px;
+    margin: auto;
+    margin-top: 50px;
+    border-style: none;
+    border-width: 5px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    float: none;
+    box-shadow: 15px 15px 30px 1px #2d3a4c;
+    justify-content: space-between;
+}
+
+#annual{
+    width: 100px;
+}
+
+#depos{
+    width: 150px;
+}
+
+#years{
+    width: 150px;
+}
