@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Address Generator</title>
-    <link rel="stylesheet" href="/Email Address Generator/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Enter your first and last names, then click the button below.</h1>
     <form>
         <input type="text" placeholder="First Name" class="name" id="first" size="20" autofocus
-        onchange="this.form.elements['last'].disabled=false"/><br>
-        <input type="text" placeholder="Last Name" class="name" id="last" size="20"/><br>
-        <input type="button" value="Generate Email" onclick="generateEmail(this.form)">
+        onchange="this.form.elements['last'].disabled=false"/><br><br>
+        <input type="text" placeholder="Last Name" class="name" id="last" size="20"/><br><br>
+        <input type="button" id="button" value="Generate Email" onclick="generateEmail(this.form)">
+        <p id="email"></p>
     </form>
-    <p id="email"></p>
+
+    <button type="submit" class="dark-mode" onclick="myFunction(this.e)">Dark Mode</button>
 </body>
 
-<script src="/Email Address Generator/script.js"></script>
+<script src="script.js"></script>
 </html>

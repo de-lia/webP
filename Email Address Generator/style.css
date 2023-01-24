@@ -1,12 +1,58 @@
+*{
+    background-color: peru;
+}
+
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 form{
-    justify-content: flex-end;
+    display: block;
+    width: 300px;
+    height: 180px;
+    padding: 25px 25px;
+    margin: auto;
+    margin-top: 50px;
+    border-style: none;
+    border-width: 10px;
+    border-radius: 10px;
+    position: relative;
+    float: none;
+    box-shadow: 15px 15px 30px 3px #2d3a4c;
+    justify-content: space-between;
+}
+
+input{
+    background-color: white;
+    height: 35px;
 }
 
 .name{
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+#button{
+    font-weight: bolder;
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.dark-mode{
 }
