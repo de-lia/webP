@@ -19,8 +19,9 @@ function checkMine(e, squareNumber){
         //Won!
         e.target.classList.add("mined");        // adds class mined to the list
         messageElement.textContent = "You win!";       // displays a message to the screen
-        messageElement.getElementsByClassName.display = "block";
+        messageElement.style.display = "block";
 
+        //increment score 
         score += 1;
 
         scoreEl.textContent = score.toString();
