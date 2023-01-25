@@ -19,7 +19,7 @@ body{
 #score{
     width: 150px;
     height: 60px;
-    border: 6px double black;
+    border: 6px dotted black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,4 +65,13 @@ body{
 
     background-color: skyblue;
     width: max-content;
+}
+
+#button{
+    width: 50px;
+    margin: auto;
+    background-color: rgb(32, 100, 100);
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
 }

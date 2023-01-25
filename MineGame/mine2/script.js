@@ -39,7 +39,6 @@ function checkMine(e, squareNumber){
 for(let i=1; i<= 25; i++){
     gameBoardEl.innerHTML += `<button id="square${i}" class="square" onclick="checkMine(event,${i})">${i}</button>`;
 }
-
 function resetGame(){
     window.location.reload("Reset");
 }
