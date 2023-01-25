@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-container{
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+#score{
+    width: 150px;
+    height: 60px;
+    border: 6px double black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    width: 400px;
+
+    height: 400px;
+
+    align-self: center;
+}
+
+.square{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+.square.safe{
+    background-color: white;
+}
+
+.square-mined{
+    background-color: rgba(19, 32, 212, 0.342);
+    color: white;
+}
+
+.message{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2.4rem;
+    
+    padding: 20px;
+
+    background-color: skyblue;
+    width: max-content;
+}
