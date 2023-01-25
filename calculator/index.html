@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Basic Calculator</h1>
+
+    <p class="text-paragraph">
+      Below is a basic calculator which can take two values and <br>
+       performs certain operations on them.
+    </p>
+
+    <div class="calc">
+    <main class="main-content">
+      <div class="calculator-inputs">
+        <input type="text" id="num1" placeholder="Num1" /><br><br>
+        <input type="text" id="num2" placeholder="Num2"/>
+      </div>
+      <br>
+      <div class="result">
+        <p id="result"></p>
+      </div>
+      <div class="operation-buttons">
+        <button onclick="addNums()" id="add">ADD</button>
+        <button onclick="subtractNums()" id="sub">SUBTRACT</button>
+        <button onclick="multiplyNums()" id="mul">MULTIPLY</button>
+        <button onclick="divideNums()" id="div">DIVIDE</button><br><br>
+    <input type="reset" id="button" value="Reset" onclick="reset()">
+      </div>
+    </main>
+    </div>
+  </body>
+
+  <script src="main.js"></script>
+</html>
