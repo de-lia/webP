@@ -9,7 +9,7 @@
 /* Minesweeper cells */
 #mine-wrap .cell{
     box-sizing: border-box;
-    background: rgb(218, 91, 91);
+    background: #ddd;
     border: 1px solid #ccc;
     font-size: 40px;
     text-align: center;
@@ -29,5 +29,5 @@
 }
 
 body, html{
-    font-family: arial, sans-serif;
+    font-family: arial, sans-serif;;
 }
