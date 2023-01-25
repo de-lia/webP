@@ -1,0 +1,33 @@
+/* Minesweeper Wrapper */
+
+#mine-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Minesweeper cells */
+#mine-wrap .cell{
+    box-sizing: border-box;
+    background: rgb(218, 91, 91);
+    border: 1px solid #ccc;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#mine-wrap .cell.mark{
+    background: #fea;
+}
+
+#mine-wrap .cell.reveal{
+    background: #f7f7f7;
+}
+
+#mine-wrap .cell.boom{
+    background: #f00;
+}
+
+body, html{
+    font-family: arial, sans-serif;
+}
