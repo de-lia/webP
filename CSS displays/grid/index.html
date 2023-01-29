@@ -1,0 +1,27 @@
+<style>
+    .grid-layout {
+      background-color: rgb(121, 28, 129);
+      padding: 10px;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas:
+        'header header header header header header'
+        'side main main main main main'
+        'side footer footer footer footer footer';
+    }
+  
+    .grid-layout > div {
+      background-color: aliceblue;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+  </style>
+  
+  <div class="grid-layout">
+    <div style="grid-area: header; width: 1550px;"><b>Header</b></div>
+    <div style="grid-area: side; width: 200px;"><b>Side</b></div>
+    <div style="grid-area: main; height: 600px; width: 1300px;"><b>Main</b></div>
+    <div style="grid-area: footer; width: 1300px;"><b>Footer</b></div>
+  </div>
